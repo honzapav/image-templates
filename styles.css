@@ -1,0 +1,36 @@
+.image-container {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  background: #fefcd2;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.logo-container {
+  width: 100%;
+  margin: 90px 0 0 120px;
+}
+
+.logo {
+  width: 480px;
+  position: relative;
+}
+
+.screenshot-container {
+  margin: 80px 150px 0 150px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.screenshot {
+  width: 100%;
+  display: block;
+}
+
+img.screenshot {
+  border-radius: 10px;
+}
